@@ -1,0 +1,5 @@
+C:\Users\maguo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/SDK/ARM/GNU_Tool_Arm_Embedded/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/SDK/ARM/GNU_Tool_Arm_Embedded/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" -S C:\Users\maguo\Desktop\UWB-UAV\code\UWB-UAV-LABEL -B C:\Users\maguo\Desktop\UWB-UAV\code\UWB-UAV-LABEL\cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/cmake-build-debug
