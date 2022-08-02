@@ -48,11 +48,11 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(User/Include ${includes})
+include_directories(DecaDriver User/App/Include User/Driver/Include ${includes})
 
 add_definitions(${defines})
 
-file(GLOB_RECURSE SOURCES ${sources} "User/*.*")
+file(GLOB_RECURSE SOURCES ${sources} "User/*.*" "DecaDriver/*.*")
 
 set(LINKER_SCRIPT $${CMAKE_SOURCE_DIR}/${linkerScript})
 

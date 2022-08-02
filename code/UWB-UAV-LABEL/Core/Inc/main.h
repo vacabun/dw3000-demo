@@ -57,6 +57,15 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define SPI1_CS_Pin GPIO_PIN_4
+#define SPI1_CS_GPIO_Port GPIOA
+#define DECA_IRQ_Pin GPIO_PIN_0
+#define DECA_IRQ_GPIO_Port GPIOB
+#define DECA_IRQ_EXTI_IRQn EXTI0_IRQn
+#define UWB_WAKEUP_Pin GPIO_PIN_3
+#define UWB_WAKEUP_GPIO_Port GPIOB
+#define DW1000_RSTn_Pin GPIO_PIN_4
+#define DW1000_RSTn_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

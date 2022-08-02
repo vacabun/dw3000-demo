@@ -61,7 +61,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  ../User/Include/printf.h \
+  ../User/Driver/Include/printf.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/cdefs.h \
@@ -76,24 +76,10 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h \
-  ../Core/Inc/usart.h \
-  ../Core/Inc/main.h \
-  ../USB_DEVICE/App/usbd_cdc_if.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
-  ../USB_DEVICE/Target/usbd_conf.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/string.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
   ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
-  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+  ../User/Driver/Include/deca_conf.h \
+  ../User/Driver/Include/deca_process.h
 
 CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c \
   ../Core/Inc/gpio.h \
@@ -138,7 +124,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  ../User/Include/printf.h \
+  ../User/Driver/Include/printf.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
@@ -160,23 +146,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h \
-  ../Core/Inc/usart.h \
-  ../USB_DEVICE/App/usbd_cdc_if.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
-  ../USB_DEVICE/Target/usbd_conf.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/string.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
-  ../Core/Inc/main.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h
 
 CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Core/Inc/main.h \
@@ -220,7 +190,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  ../User/Include/printf.h \
+  ../User/Driver/Include/printf.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
@@ -243,22 +213,6 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h \
-  ../Core/Inc/usart.h \
-  ../Core/Inc/main.h \
-  ../USB_DEVICE/App/usbd_cdc_if.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
-  ../USB_DEVICE/Target/usbd_conf.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/string.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
   ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
   ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
   ../Core/Inc/FreeRTOSConfig.h \
@@ -272,8 +226,17 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
   ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
   ../Core/Inc/spi.h \
+  ../Core/Inc/main.h \
+  ../Core/Inc/usart.h \
   ../USB_DEVICE/App/usb_device.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+  ../USB_DEVICE/Target/usbd_conf.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdlib.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/stdlib.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/string.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
   ../Core/Inc/gpio.h
 
 CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c \
@@ -319,7 +282,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  ../User/Include/printf.h \
+  ../User/Driver/Include/printf.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
@@ -341,23 +304,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h \
-  ../Core/Inc/usart.h \
-  ../USB_DEVICE/App/usbd_cdc_if.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
-  ../USB_DEVICE/Target/usbd_conf.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/string.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
-  ../Core/Inc/main.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h
 
 CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c \
   ../Core/Inc/main.h \
@@ -401,7 +348,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/s
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  ../User/Include/printf.h \
+  ../User/Driver/Include/printf.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
@@ -423,23 +370,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/s
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h \
-  ../Core/Inc/usart.h \
-  ../Core/Inc/main.h \
-  ../USB_DEVICE/App/usbd_cdc_if.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
-  ../USB_DEVICE/Target/usbd_conf.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/string.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h
 
 CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f4xx_hal_timebase_tim.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -525,7 +456,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  ../User/Include/printf.h \
+  ../User/Driver/Include/printf.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
@@ -548,23 +479,8 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h \
-  ../Core/Inc/usart.h \
-  ../Core/Inc/main.h \
-  ../USB_DEVICE/App/usbd_cdc_if.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
-  ../USB_DEVICE/Target/usbd_conf.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/stdlib.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/string.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
-  ../Core/Inc/stm32f4xx_it.h
+  ../Core/Inc/stm32f4xx_it.h \
+  ../User/Driver/Include/deca_process.h
 
 CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stat.h \
@@ -714,7 +630,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  ../User/Include/printf.h \
+  ../User/Driver/Include/printf.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
@@ -736,22 +652,36 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h \
-  ../USB_DEVICE/App/usbd_cdc_if.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
-  ../USB_DEVICE/Target/usbd_conf.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h
+
+CMakeFiles/UWB-UAV-LABEL.elf.dir/DecaDriver/deca_device.c.obj: ../DecaDriver/deca_device.c \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/assert.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_newlib_version.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/config.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/ieeefp.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/features.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdlib.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/reent.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_default_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/lock.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/cdefs.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/stdlib.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/string.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
-  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
-  ../Core/Inc/main.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_intsup.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_stdint.h \
+  ../DecaDriver/deca_types.h \
+  ../DecaDriver/deca_regs.h \
+  ../DecaDriver/deca_vals.h \
+  ../DecaDriver/deca_device_api.h \
+  ../DecaDriver/deca_version.h
 
 CMakeFiles/UWB-UAV-LABEL.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1667,6 +1597,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/C
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  ../User/Driver/Include/printf.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
@@ -1744,15 +1675,10 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Sr
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  ../User/Include/printf.h \
-  ../Core/Inc/usart.h \
-  ../Core/Inc/main.h \
-  ../USB_DEVICE/App/usbd_cdc_if.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  ../User/Driver/Include/printf.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
-  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 
 CMakeFiles/UWB-UAV-LABEL.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c \
@@ -1828,6 +1754,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Sr
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  ../User/Driver/Include/printf.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
@@ -1906,6 +1833,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Sr
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  ../User/Driver/Include/printf.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
@@ -2363,6 +2291,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/USB_DEVICE/App/usb_device.c.obj: ../USB_DEVICE/
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
   ../Core/Inc/main.h \
+  ../User/Driver/Include/printf.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
@@ -2448,6 +2377,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: ../USB_DEVICE
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  ../User/Driver/Include/printf.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
@@ -2524,6 +2454,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: ../USB_DEVICE/A
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  ../User/Driver/Include/printf.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
@@ -2603,6 +2534,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVIC
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h \
   ../Core/Inc/main.h \
+  ../User/Driver/Include/printf.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
@@ -2611,7 +2543,220 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVIC
   ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 
-CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Source/printf.c.obj: ../User/Source/printf.c \
+CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_conf.c.obj: ../User/Driver/Source/deca_conf.c \
+  ../User/Driver/Include/deca_conf.h \
+  ../DecaDriver/deca_device_api.h \
+  ../DecaDriver/deca_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_default_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/features.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_newlib_version.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_intsup.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+  ../Core/Inc/gpio.h \
+  ../Core/Inc/main.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  ../Core/Inc/stm32f4xx_hal_conf.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  ../User/Driver/Include/printf.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/config.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/ieeefp.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/cdefs.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdarg.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/reent.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/lock.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/endian.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_endian.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/select.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_sigset.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timeval.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/timespec.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h \
+  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+  ../User/Driver/Include/deca_config_options.h \
+  ../User/Driver/Include/deca_sleep.h \
+  ../User/Driver/Include/shared_functions.h \
+  ../DecaDriver/deca_regs.h \
+  ../DecaDriver/deca_vals.h
+
+CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_config_options.c.obj: ../User/Driver/Source/deca_config_options.c \
+  ../User/Driver/Include/deca_config_options.h \
+  ../DecaDriver/deca_device_api.h \
+  ../DecaDriver/deca_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_default_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/features.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_newlib_version.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_intsup.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h
+
+CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_process.c.obj: ../User/Driver/Source/deca_process.c \
+  ../User/Driver/Include/deca_process.h \
+  ../DecaDriver/deca_device_api.h \
+  ../DecaDriver/deca_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_default_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/features.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_newlib_version.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_intsup.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+  ../DecaDriver/deca_regs.h \
+  ../DecaDriver/deca_vals.h \
+  ../User/Driver/Include/printf.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/config.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/ieeefp.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/cdefs.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdarg.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/reent.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/lock.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/endian.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_endian.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/select.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_sigset.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timeval.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/timespec.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h
+
+CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_sleep.c.obj: ../User/Driver/Source/deca_sleep.c \
+  ../DecaDriver/deca_device_api.h \
+  ../DecaDriver/deca_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_default_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/features.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_newlib_version.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_intsup.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h
+
+CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_spi.c.obj: ../User/Driver/Source/deca_spi.c \
+  ../User/Driver/Include/deca_spi.h \
+  ../DecaDriver/deca_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_default_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/features.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_newlib_version.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_intsup.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+  ../DecaDriver/deca_device_api.h \
+  ../DecaDriver/deca_types.h \
+  ../Core/Inc/spi.h \
+  ../Core/Inc/main.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  ../Core/Inc/stm32f4xx_hal_conf.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  ../User/Driver/Include/printf.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/config.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/ieeefp.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/cdefs.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdarg.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/reent.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/lock.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/endian.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_endian.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/select.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_sigset.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timeval.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/timespec.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h
+
+CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/printf.c.obj: ../User/Driver/Source/printf.c \
+  ../User/Driver/Include/printf.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_ansi.h \
   D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/newlib.h \
@@ -2692,6 +2837,24 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Source/printf.c.obj: ../User/Source/printf
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 
+CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/shared_functions.c.obj: ../User/Driver/Source/shared_functions.c \
+  ../DecaDriver/deca_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_default_types.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/features.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/_newlib_version.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_intsup.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_stdint.h \
+  D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+  ../DecaDriver/deca_regs.h \
+  ../DecaDriver/deca_vals.h \
+  ../DecaDriver/deca_device_api.h \
+  ../DecaDriver/deca_types.h \
+  ../User/Driver/Include/shared_defines.h \
+  ../User/Driver/Include/shared_functions.h \
+  ../User/Driver/Include/deca_config_options.h
+
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:
 
@@ -2704,6 +2867,8 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/features.h:
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h:
 
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
+
+../User/Driver/Source/deca_spi.c:
 
 ../Core/Src/freertos.c:
 
@@ -2771,6 +2936,8 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/reent.h:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
 
+../DecaDriver/deca_device_api.h:
+
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/reent.h:
 
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/ieeefp.h:
@@ -2795,9 +2962,13 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_types.h:
 
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/time.h:
 
+../User/Driver/Include/deca_conf.h:
+
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/stdio.h:
 
 ../Core/Inc/main.h:
+
+../User/Driver/Include/deca_sleep.h:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 
@@ -2817,6 +2988,8 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h:
 
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h:
 
+../User/Driver/Source/deca_config_options.c:
+
 ../Drivers/CMSIS/Include/core_cm4.h:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
@@ -2830,6 +3003,8 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/alloca.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:
 
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+
+../DecaDriver/deca_vals.h:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
 
@@ -2849,7 +3024,7 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/cdefs.h:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 
-../User/Include/printf.h:
+../User/Driver/Include/printf.h:
 
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/stdio.h:
 
@@ -2858,6 +3033,8 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/types.h:
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/endian.h:
 
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_endian.h:
+
+D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/assert.h:
 
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/select.h:
 
@@ -2869,17 +3046,25 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/timespec.h:
 
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_timespec.h:
 
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
+
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
+
+../User/Driver/Include/deca_process.h:
+
+../Core/Src/gpio.c:
+
+../Core/Inc/gpio.h:
+
+../Core/Src/main.c:
+
+../Core/Inc/spi.h:
+
 ../Core/Inc/usart.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:
+D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/times.h:
 
-../USB_DEVICE/App/usbd_cdc_if.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
-
-../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
-
-../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
+../USB_DEVICE/App/usb_device.h:
 
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 
@@ -2895,25 +3080,9 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/_locale.h:
 
 D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/string.h:
 
-../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
-
-../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
-
-../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
-
-../Core/Src/gpio.c:
-
-../Core/Inc/gpio.h:
-
-../Core/Src/main.c:
-
-../Core/Inc/spi.h:
-
-D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/sys/times.h:
-
-../USB_DEVICE/App/usb_device.h:
-
 ../Core/Src/spi.c:
+
+../User/Driver/Include/shared_defines.h:
 
 ../Core/Src/syscalls.c:
 
@@ -2943,11 +3112,27 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_time.h:
 
 ../Core/Src/system_stm32f4xx.c:
 
+../DecaDriver/deca_device.c:
+
+../DecaDriver/deca_types.h:
+
+../DecaDriver/deca_regs.h:
+
+../DecaDriver/deca_version.h:
+
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:
+
+../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
+
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:
+
+../USB_DEVICE/App/usbd_cdc_if.h:
+
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:
 
@@ -2972,6 +3157,12 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_time.h:
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:
 
 ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:
+
+../User/Driver/Include/deca_spi.h:
+
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
+
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
 
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:
 
@@ -3017,4 +3208,16 @@ D:/SDK/ARM/GNU_Tool_Arm_Embedded/arm-none-eabi/include/machine/_time.h:
 
 ../USB_DEVICE/Target/usbd_conf.c:
 
-../User/Source/printf.c:
+../User/Driver/Source/deca_conf.c:
+
+../User/Driver/Include/deca_config_options.h:
+
+../User/Driver/Include/shared_functions.h:
+
+../User/Driver/Source/deca_process.c:
+
+../User/Driver/Source/deca_sleep.c:
+
+../User/Driver/Source/printf.c:
+
+../User/Driver/Source/shared_functions.c:

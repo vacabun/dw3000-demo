@@ -400,6 +400,30 @@ Core/Startup/startup_stm32f401ccux.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Startup/startup_stm32f401ccux.s.obj
 .PHONY : Core/Startup/startup_stm32f401ccux.s.obj
 
+DecaDriver/deca_device.obj: DecaDriver/deca_device.c.obj
+.PHONY : DecaDriver/deca_device.obj
+
+# target to build an object file
+DecaDriver/deca_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/DecaDriver/deca_device.c.obj
+.PHONY : DecaDriver/deca_device.c.obj
+
+DecaDriver/deca_device.i: DecaDriver/deca_device.c.i
+.PHONY : DecaDriver/deca_device.i
+
+# target to preprocess a source file
+DecaDriver/deca_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/DecaDriver/deca_device.c.i
+.PHONY : DecaDriver/deca_device.c.i
+
+DecaDriver/deca_device.s: DecaDriver/deca_device.c.s
+.PHONY : DecaDriver/deca_device.s
+
+# target to generate assembly for a file
+DecaDriver/deca_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/DecaDriver/deca_device.c.s
+.PHONY : DecaDriver/deca_device.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 
@@ -1312,29 +1336,173 @@ USB_DEVICE/Target/usbd_conf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/USB_DEVICE/Target/usbd_conf.c.s
 .PHONY : USB_DEVICE/Target/usbd_conf.c.s
 
-User/Source/printf.obj: User/Source/printf.c.obj
-.PHONY : User/Source/printf.obj
+User/Driver/Source/deca_conf.obj: User/Driver/Source/deca_conf.c.obj
+.PHONY : User/Driver/Source/deca_conf.obj
 
 # target to build an object file
-User/Source/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Source/printf.c.obj
-.PHONY : User/Source/printf.c.obj
+User/Driver/Source/deca_conf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_conf.c.obj
+.PHONY : User/Driver/Source/deca_conf.c.obj
 
-User/Source/printf.i: User/Source/printf.c.i
-.PHONY : User/Source/printf.i
+User/Driver/Source/deca_conf.i: User/Driver/Source/deca_conf.c.i
+.PHONY : User/Driver/Source/deca_conf.i
 
 # target to preprocess a source file
-User/Source/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Source/printf.c.i
-.PHONY : User/Source/printf.c.i
+User/Driver/Source/deca_conf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_conf.c.i
+.PHONY : User/Driver/Source/deca_conf.c.i
 
-User/Source/printf.s: User/Source/printf.c.s
-.PHONY : User/Source/printf.s
+User/Driver/Source/deca_conf.s: User/Driver/Source/deca_conf.c.s
+.PHONY : User/Driver/Source/deca_conf.s
 
 # target to generate assembly for a file
-User/Source/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Source/printf.c.s
-.PHONY : User/Source/printf.c.s
+User/Driver/Source/deca_conf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_conf.c.s
+.PHONY : User/Driver/Source/deca_conf.c.s
+
+User/Driver/Source/deca_config_options.obj: User/Driver/Source/deca_config_options.c.obj
+.PHONY : User/Driver/Source/deca_config_options.obj
+
+# target to build an object file
+User/Driver/Source/deca_config_options.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_config_options.c.obj
+.PHONY : User/Driver/Source/deca_config_options.c.obj
+
+User/Driver/Source/deca_config_options.i: User/Driver/Source/deca_config_options.c.i
+.PHONY : User/Driver/Source/deca_config_options.i
+
+# target to preprocess a source file
+User/Driver/Source/deca_config_options.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_config_options.c.i
+.PHONY : User/Driver/Source/deca_config_options.c.i
+
+User/Driver/Source/deca_config_options.s: User/Driver/Source/deca_config_options.c.s
+.PHONY : User/Driver/Source/deca_config_options.s
+
+# target to generate assembly for a file
+User/Driver/Source/deca_config_options.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_config_options.c.s
+.PHONY : User/Driver/Source/deca_config_options.c.s
+
+User/Driver/Source/deca_process.obj: User/Driver/Source/deca_process.c.obj
+.PHONY : User/Driver/Source/deca_process.obj
+
+# target to build an object file
+User/Driver/Source/deca_process.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_process.c.obj
+.PHONY : User/Driver/Source/deca_process.c.obj
+
+User/Driver/Source/deca_process.i: User/Driver/Source/deca_process.c.i
+.PHONY : User/Driver/Source/deca_process.i
+
+# target to preprocess a source file
+User/Driver/Source/deca_process.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_process.c.i
+.PHONY : User/Driver/Source/deca_process.c.i
+
+User/Driver/Source/deca_process.s: User/Driver/Source/deca_process.c.s
+.PHONY : User/Driver/Source/deca_process.s
+
+# target to generate assembly for a file
+User/Driver/Source/deca_process.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_process.c.s
+.PHONY : User/Driver/Source/deca_process.c.s
+
+User/Driver/Source/deca_sleep.obj: User/Driver/Source/deca_sleep.c.obj
+.PHONY : User/Driver/Source/deca_sleep.obj
+
+# target to build an object file
+User/Driver/Source/deca_sleep.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_sleep.c.obj
+.PHONY : User/Driver/Source/deca_sleep.c.obj
+
+User/Driver/Source/deca_sleep.i: User/Driver/Source/deca_sleep.c.i
+.PHONY : User/Driver/Source/deca_sleep.i
+
+# target to preprocess a source file
+User/Driver/Source/deca_sleep.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_sleep.c.i
+.PHONY : User/Driver/Source/deca_sleep.c.i
+
+User/Driver/Source/deca_sleep.s: User/Driver/Source/deca_sleep.c.s
+.PHONY : User/Driver/Source/deca_sleep.s
+
+# target to generate assembly for a file
+User/Driver/Source/deca_sleep.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_sleep.c.s
+.PHONY : User/Driver/Source/deca_sleep.c.s
+
+User/Driver/Source/deca_spi.obj: User/Driver/Source/deca_spi.c.obj
+.PHONY : User/Driver/Source/deca_spi.obj
+
+# target to build an object file
+User/Driver/Source/deca_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_spi.c.obj
+.PHONY : User/Driver/Source/deca_spi.c.obj
+
+User/Driver/Source/deca_spi.i: User/Driver/Source/deca_spi.c.i
+.PHONY : User/Driver/Source/deca_spi.i
+
+# target to preprocess a source file
+User/Driver/Source/deca_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_spi.c.i
+.PHONY : User/Driver/Source/deca_spi.c.i
+
+User/Driver/Source/deca_spi.s: User/Driver/Source/deca_spi.c.s
+.PHONY : User/Driver/Source/deca_spi.s
+
+# target to generate assembly for a file
+User/Driver/Source/deca_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/deca_spi.c.s
+.PHONY : User/Driver/Source/deca_spi.c.s
+
+User/Driver/Source/printf.obj: User/Driver/Source/printf.c.obj
+.PHONY : User/Driver/Source/printf.obj
+
+# target to build an object file
+User/Driver/Source/printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/printf.c.obj
+.PHONY : User/Driver/Source/printf.c.obj
+
+User/Driver/Source/printf.i: User/Driver/Source/printf.c.i
+.PHONY : User/Driver/Source/printf.i
+
+# target to preprocess a source file
+User/Driver/Source/printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/printf.c.i
+.PHONY : User/Driver/Source/printf.c.i
+
+User/Driver/Source/printf.s: User/Driver/Source/printf.c.s
+.PHONY : User/Driver/Source/printf.s
+
+# target to generate assembly for a file
+User/Driver/Source/printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/printf.c.s
+.PHONY : User/Driver/Source/printf.c.s
+
+User/Driver/Source/shared_functions.obj: User/Driver/Source/shared_functions.c.obj
+.PHONY : User/Driver/Source/shared_functions.obj
+
+# target to build an object file
+User/Driver/Source/shared_functions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/shared_functions.c.obj
+.PHONY : User/Driver/Source/shared_functions.c.obj
+
+User/Driver/Source/shared_functions.i: User/Driver/Source/shared_functions.c.i
+.PHONY : User/Driver/Source/shared_functions.i
+
+# target to preprocess a source file
+User/Driver/Source/shared_functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/shared_functions.c.i
+.PHONY : User/Driver/Source/shared_functions.c.i
+
+User/Driver/Source/shared_functions.s: User/Driver/Source/shared_functions.c.s
+.PHONY : User/Driver/Source/shared_functions.s
+
+# target to generate assembly for a file
+User/Driver/Source/shared_functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UWB-UAV-LABEL.elf.dir\build.make CMakeFiles/UWB-UAV-LABEL.elf.dir/User/Driver/Source/shared_functions.c.s
+.PHONY : User/Driver/Source/shared_functions.c.s
 
 # Help Target
 help:
@@ -1379,6 +1547,9 @@ help:
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32f401ccux.obj
+	@echo ... DecaDriver/deca_device.obj
+	@echo ... DecaDriver/deca_device.i
+	@echo ... DecaDriver/deca_device.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -1493,9 +1664,27 @@ help:
 	@echo ... USB_DEVICE/Target/usbd_conf.obj
 	@echo ... USB_DEVICE/Target/usbd_conf.i
 	@echo ... USB_DEVICE/Target/usbd_conf.s
-	@echo ... User/Source/printf.obj
-	@echo ... User/Source/printf.i
-	@echo ... User/Source/printf.s
+	@echo ... User/Driver/Source/deca_conf.obj
+	@echo ... User/Driver/Source/deca_conf.i
+	@echo ... User/Driver/Source/deca_conf.s
+	@echo ... User/Driver/Source/deca_config_options.obj
+	@echo ... User/Driver/Source/deca_config_options.i
+	@echo ... User/Driver/Source/deca_config_options.s
+	@echo ... User/Driver/Source/deca_process.obj
+	@echo ... User/Driver/Source/deca_process.i
+	@echo ... User/Driver/Source/deca_process.s
+	@echo ... User/Driver/Source/deca_sleep.obj
+	@echo ... User/Driver/Source/deca_sleep.i
+	@echo ... User/Driver/Source/deca_sleep.s
+	@echo ... User/Driver/Source/deca_spi.obj
+	@echo ... User/Driver/Source/deca_spi.i
+	@echo ... User/Driver/Source/deca_spi.s
+	@echo ... User/Driver/Source/printf.obj
+	@echo ... User/Driver/Source/printf.i
+	@echo ... User/Driver/Source/printf.s
+	@echo ... User/Driver/Source/shared_functions.obj
+	@echo ... User/Driver/Source/shared_functions.i
+	@echo ... User/Driver/Source/shared_functions.s
 .PHONY : help
 
 

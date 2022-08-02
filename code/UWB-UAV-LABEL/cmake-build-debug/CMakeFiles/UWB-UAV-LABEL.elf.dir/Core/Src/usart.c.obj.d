@@ -42,7 +42,7 @@ CMakeFiles/UWB-UAV-LABEL.elf.dir/Core/Src/usart.c.obj: \
  C:\Users\maguo\Desktop\UWB-UAV\code\UWB-UAV-LABEL\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
  C:\Users\maguo\Desktop\UWB-UAV\code\UWB-UAV-LABEL\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
  C:\Users\maguo\Desktop\UWB-UAV\code\UWB-UAV-LABEL\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd_ex.h \
- C:\Users\maguo\Desktop\UWB-UAV\code\UWB-UAV-LABEL\User\Include/printf.h \
+ C:\Users\maguo\Desktop\UWB-UAV\code\UWB-UAV-LABEL\User\Driver\Include/printf.h \
  d:\sdk\arm\gnu_tool_arm_embedded\arm-none-eabi\include\stdio.h \
  d:\sdk\arm\gnu_tool_arm_embedded\arm-none-eabi\include\_ansi.h \
  d:\sdk\arm\gnu_tool_arm_embedded\arm-none-eabi\include\newlib.h \

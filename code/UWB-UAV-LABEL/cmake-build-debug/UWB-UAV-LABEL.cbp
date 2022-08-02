@@ -30,7 +30,9 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F401xC"/>
-					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Include"/>
+					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/DecaDriver"/>
+					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/App/Include"/>
+					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include"/>
 					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/Core/Inc"/>
 					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
@@ -70,7 +72,9 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F401xC"/>
-					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Include"/>
+					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/DecaDriver"/>
+					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/App/Include"/>
+					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include"/>
 					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/Core/Inc"/>
 					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
@@ -173,6 +177,24 @@
 			<Option target="UWB-UAV-LABEL.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/Core/Startup/startup_stm32f401ccux.s">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/DecaDriver/deca_device.c">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/DecaDriver/deca_device_api.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/DecaDriver/deca_regs.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/DecaDriver/deca_types.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/DecaDriver/deca_vals.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/DecaDriver/deca_version.h">
 			<Option target="UWB-UAV-LABEL.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h">
@@ -541,7 +563,49 @@
 		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/USB_DEVICE/Target/usbd_conf.h">
 			<Option target="UWB-UAV-LABEL.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Source/printf.c">
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include/deca_conf.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include/deca_config_options.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include/deca_process.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include/deca_sleep.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include/deca_spi.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include/printf.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include/shared_defines.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Include/shared_functions.h">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Source/deca_conf.c">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Source/deca_config_options.c">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Source/deca_process.c">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Source/deca_sleep.c">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Source/deca_spi.c">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Source/printf.c">
+			<Option target="UWB-UAV-LABEL.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/User/Driver/Source/shared_functions.c">
 			<Option target="UWB-UAV-LABEL.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL/CMakeLists.txt">
