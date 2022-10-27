@@ -1,0 +1,10 @@
+uwb-uav-label\deca_device.o: ..\Drivers\Decawave\DW3000_API_C0_rev4p0\deca_device.c
+uwb-uav-label\deca_device.o: C:\Keil_v5\ARM\ARMCCv506u7\Bin\..\include\assert.h
+uwb-uav-label\deca_device.o: C:\Keil_v5\ARM\ARMCCv506u7\Bin\..\include\stdlib.h
+uwb-uav-label\deca_device.o: C:\Keil_v5\ARM\ARMCCv506u7\Bin\..\include\stdint.h
+uwb-uav-label\deca_device.o: ..\Drivers\Decawave\DW3000_API_C0_rev4p0\deca_types.h
+uwb-uav-label\deca_device.o: C:\Keil_v5\ARM\ARMCCv506u7\Bin\..\include\stddef.h
+uwb-uav-label\deca_device.o: ..\Drivers\Decawave\DW3000_API_C0_rev4p0\deca_regs.h
+uwb-uav-label\deca_device.o: ..\Drivers\Decawave\DW3000_API_C0_rev4p0\deca_vals.h
+uwb-uav-label\deca_device.o: ..\Drivers\Decawave\DW3000_API_C0_rev4p0\deca_device_api.h
+uwb-uav-label\deca_device.o: ..\Drivers\Decawave\DW3000_API_C0_rev4p0\deca_version.h

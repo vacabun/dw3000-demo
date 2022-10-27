@@ -1,0 +1,2 @@
+../Platform/printf.c:7:1:__io_putchar	16	static
+../Platform/printf.c:15:6:usb_printf	16	static

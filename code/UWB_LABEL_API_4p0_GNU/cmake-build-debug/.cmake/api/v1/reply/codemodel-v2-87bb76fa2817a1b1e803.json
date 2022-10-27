@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UWB-UAV-LABEL",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UWB-UAV-LABEL.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UWB-UAV-LABEL.elf-Debug-4524850dda23b4d74506.json",
+					"name" : "UWB-UAV-LABEL.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL-old/cmake-build-debug",
+		"source" : "C:/Users/maguo/Desktop/UWB-UAV/code/UWB-UAV-LABEL-old"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,13 @@
+../Drivers/Decawave/example/shared_data/shared_functions.c:96:9:calculate_power_boost	32	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:156:6:check_for_status_errors	24	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:264:10:get_rx_delay_time_txpreamble	16	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:309:10:get_rx_delay_time_data_rate	16	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:340:6:set_delayed_rx_time	24	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:396:6:set_resp_rx_timeout	32	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:435:6:resp_msg_get_ts	24	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:455:10:get_tx_timestamp_u64	40	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:479:10:get_rx_timestamp_u64	40	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:504:6:final_msg_get_ts	24	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:525:6:final_msg_set_ts	32	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:546:6:resp_msg_set_ts	40	static
+../Drivers/Decawave/example/shared_data/shared_functions.c:589:6:waitforsysstatus	32	static

@@ -1,0 +1,10 @@
+uwb-uav-label\mac_802_15_8.o: ..\Drivers\Decawave\DW3000_API_C0_rev4p0\examples\MAC_802_15_8\mac_802_15_8.c
+uwb-uav-label\mac_802_15_8.o: C:\Keil_v5\ARM\ARMCCv506u7\Bin\..\include\string.h
+uwb-uav-label\mac_802_15_8.o: ../Drivers/Decawave/DW3000_API_C0_rev4p0/examples/MAC_802_15_8/mac_802_15_8.h
+uwb-uav-label\mac_802_15_8.o: ../Drivers/Decawave/DW3000_API_C0_rev4p0/deca_regs.h
+uwb-uav-label\mac_802_15_8.o: ../Drivers/Decawave/DW3000_API_C0_rev4p0/deca_vals.h
+uwb-uav-label\mac_802_15_8.o: ../Drivers/Decawave/DW3000_API_C0_rev4p0/deca_device_api.h
+uwb-uav-label\mac_802_15_8.o: ../Drivers/Decawave/DW3000_API_C0_rev4p0/deca_types.h
+uwb-uav-label\mac_802_15_8.o: C:\Keil_v5\ARM\ARMCCv506u7\Bin\..\include\stdint.h
+uwb-uav-label\mac_802_15_8.o: C:\Keil_v5\ARM\ARMCCv506u7\Bin\..\include\stddef.h
+uwb-uav-label\mac_802_15_8.o: ../Drivers/Decawave/DW3000_API_C0_rev4p0/examples/shared_data/shared_defines.h

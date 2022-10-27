@@ -1,0 +1,13 @@
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:19:6:mac_frame_set_pan_ids_and_addresses_802_15_4	32	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:41:6:mac_frame_init_mac_frame_ctrl	16	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:58:6:mac_frame_update_sequence_number	16	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:65:6:mac_frame_set_AUX_security_control	16	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:73:6:mac_frame_set_AUX_key_identifier	16	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:79:6:mac_frame_update_aux_frame_cnt	24	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:91:9:mac_frame_get_AUX_key_identifier	16	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:97:10:mac_frame_get_aux_frame_cnt	24	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:114:6:mac_frame_get_nonce	16	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:129:9:mac_frame_get_aux_mic_size	24	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:169:15:rx_aes_802_15_4	64	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:257:18:get_security_state	16	static
+../Drivers/Decawave/example/MAC_802_15_4/mac_802_15_4.c:277:6:get_src_and_dst_frame_addr	96	static

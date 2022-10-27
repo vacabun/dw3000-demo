@@ -1,0 +1,6 @@
+../Platform/deca/deca_spi.c:34:5:openspi	4	static
+../Platform/deca/deca_spi.c:45:5:closespi	4	static
+../Platform/deca/deca_spi.c:57:5:writetospiwithcrc	32	static
+../Platform/deca/deca_spi.c:85:5:writetospi	32	static
+../Platform/deca/deca_spi.c:118:10:spi_cs_low_delay	16	static
+../Platform/deca/deca_spi.c:142:5:readfromspi	32	static
