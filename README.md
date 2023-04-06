@@ -1,5 +1,7 @@
 # DW3000 DEMO
 
+> this repository has been deprecated, please use https://github.com/vacabun/zephyr-dw3000.
+
 decawave offical example ex_00a_reading_dev_id build and test state :
 
 |  code   | state  |
